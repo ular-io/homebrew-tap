@@ -1,15 +1,15 @@
 class S7s < Formula
   desc "TUI for searching and resuming Claude Code, Antigravity, and Codex sessions"
   homepage "https://github.com/ular-io/ular-s7s"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/ular-io/ular-s7s/releases/download/v0.2.2/s7s-mac-arm64.tar.gz"
-    sha256 "44bf97f50b9e70681f8c6a1e410948f9b9cc3b2e8be8c02026ed6085f3ec7cc0"
+    url "https://github.com/ular-io/ular-s7s/releases/download/v0.2.3/s7s-mac-arm64.tar.gz"
+    sha256 "167e82ed3fa98218d4cafe50928428f9986a13fad4bd1621698aca93ad03ab5e"
   else
-    url "https://github.com/ular-io/ular-s7s/releases/download/v0.2.2/s7s-mac-amd64.tar.gz"
-    sha256 "c54ef0d8518f1d17cc1f2b5cba9cc9c7494d41505c2f74b740f7dd93ca39151c"
+    url "https://github.com/ular-io/ular-s7s/releases/download/v0.2.3/s7s-mac-amd64.tar.gz"
+    sha256 "c2e48468530423f1f63e0344a3bae93fd3c35b0c92e66d50af9bf781a80015bf"
   end
 
   def install
